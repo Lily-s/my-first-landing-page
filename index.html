@@ -1,6 +1,38 @@
 <!DOCTYPE html>
 <html lang="cs">
 <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Рамка с уголками</title>
+    <style type="text/css">
+     .d1, .d2, .d3 { 
+      display: block; 
+      font-size: 0; 
+      overflow: hidden; 
+      height: 1px; 
+     }
+     .d2, .d3, .dialog-round div {
+      border-left: 1px solid #666;
+      border-right: 1px solid #666;
+      background-color: #a4d9eb;
+     }
+     .d1 { margin: 0 4px; background: #666; }
+     .d2 { margin: 0 2px; border-width: 2px; }
+     .d3 { margin: 0 1px; height: 2px; }
+     .dialog-round div {
+      padding: 5px 10px; 
+     }
+    </style>
+    </head>
+    <body>
+     <div class="dialog-round">
+      <span class="d1"></span><span class="d2"></span><span class="d3"></span>
+      <div>
+       Laserové gravirování
+      </div>
+      <span class="d3"></span><span class="d2"></span><span class="d1"></span>
+     </div>
+    </body>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laserové gravírování na míru</title>
@@ -9,5 +41,7 @@
     <h1> Personalizované dárky a suvenýry</h1>
     <p>Pokud hledáte jedinečný a nezapomenutelný dárek pro své blízké,
     jste na správném místě.</p>
+    <img src="/assets/pictures/zorka-termoska.jpg" alt="Termoska" width="500" height="600">
+
 </body>
 </html>
